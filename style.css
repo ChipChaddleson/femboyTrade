@@ -1,0 +1,12 @@
+.femboy{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#B97A95;
+    font-size: 4em;
+}
+
+body{
+    background-color: #4d4a62;
+}
