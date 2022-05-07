@@ -1,12 +1,91 @@
-.femboy{
+body{
+    background-color: #4d4a62;
+    display: grid;
+
+}
+
+.titleMid{
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:#B97A95;
-    font-size: 4em;
+
+}
+.glow{
+    text-shadow: rgba(185,122,149,1) 0px 0px 35px;
 }
 
-body{
+.titleTextMain{
+    color:#B97A95;
+    place-content: center;
+    display: flex;
+}
+
+.letter{
+    font-size: 4em;
+
+    
+}
+
+.titleTextSub{
+    color:#99c579;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+.header{
     background-color: #4d4a62;
+    color: #B97A95;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+a{
+    color: #B97A95;
+    text-decoration: none;
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    float: right;
+    align-items: center;
+    display: inline-flex;
+    height: 2em;
+}
+.logo{
+    font-size: 2em;
+    color: #B97A95;
+}
+.home{
+    font-size: 1.5em;
+    color: #B97A95;
+    margin: 0;
+    padding-right: 0.6em;
+}
+.home:hover{
+    color: #99c579;
+}
+.about{
+    font-size: 1.5em;
+    color: #B97A95;
+    padding-right: 0.6em;
+}
+.about:hover{
+    color: #99c579;
+}
+.contact{
+    font-size: 1.5em;
+    color: #B97A95;
+    padding-right: 0.6em;
+}
+.contact:hover{
+    color: #99c579;
 }
