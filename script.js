@@ -19,4 +19,8 @@ $(document).ready(function () {
         
     });
 
+    $("*").scroll(function () { 
+        console.log("scrolled");
+    });
+
 });

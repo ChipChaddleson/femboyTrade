@@ -9,6 +9,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 
 }
 .glow{
@@ -63,6 +64,7 @@ a{
 .logo{
     font-size: 2em;
     color: #B97A95;
+    border-radius: 50%;
 }
 .home{
     font-size: 1.5em;
