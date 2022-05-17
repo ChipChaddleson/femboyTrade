@@ -18,8 +18,11 @@ body{
 
 .titleTextMain{
     color:#B97A95;
+    position: relative;
     place-content: center;
     display: flex;
+
+
 }
 
 .letter{
@@ -35,6 +38,33 @@ body{
     
 }
 
+.top{
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    background-color: rgb(79, 163, 163);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.top .btn {
+    background-color: rgb(79, 163, 163);
+    font-size: 1.5em;
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+    margin: 0;
+    
+    position: relative;
+    transform-origin: center;
+    transition: all 0.3s ease-in-out;
+    transform: translate(50%, 50%);
+    
+}
+
 .header{
     background-color: #4d4a62;
     color: #B97A95;
@@ -46,7 +76,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
+   z-index: -2;
 }
 a{
     color: #B97A95;
