@@ -1,0 +1,26 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>explode demo</title>
+    <style>
+    #toggle {
+      width: 100px;
+      height: 100px;
+      background: #ccc;
+    }
+    </style>
+    <script src="JQuery.js"></script>
+    <script src="jquery-ui.js"></script>
+  <style>html, body { border:0; margin:0; padding:0; }body { font-family: 'Helvetica', 'Arial',  'Verdana', 'sans-serif'; }</style></head>
+  <body>
+   
+  <p>Click anywhere to toggle the box.</p>
+  <div id="toggle" style="display: block;"></div>
+   
+  <script>window.onload = function() {
+  $( document ).click(function() {
+    $( "#toggle" ).toggle( "explode" );
+  });
+  };</script>
+   
+  
+  </body></html>
