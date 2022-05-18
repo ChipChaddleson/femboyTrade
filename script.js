@@ -52,8 +52,8 @@ $(document).ready(function () {
 
 
     $(".titleTextSub").hover(function () {
-        $(this).text("the cuter they are!");},
-        function () {$(this).text("the better they dress");
+        $(this).text("for fine professionals");},
+        function () {$(this).text("the finest email adress");
         
     });
 
