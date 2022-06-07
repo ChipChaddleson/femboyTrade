@@ -1,4 +1,14 @@
 $(document).ready(function () {
+    let i = 0;
+    setInterval(() => {
+        
+        console.log(i%20);
+        let pike = document.getElementsByClassName("p" + (i%20))[0]
+        pike.style.backgroundColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+        pike.style.top = (88 - Math.floor(Math.random()*3)) + "%";
+        i++;
+    }, 40);
+    
     var comtd = 0;
     $('.titleTextMain').hide();
     $(".top").slideUp(0);
@@ -25,6 +35,8 @@ $(document).ready(function () {
         if (comtd == 1) {
             $(".top").slideToggle(500);
             comtd = 2;
+            let i = 0;
+
         };
 
         if (comtd == 0) {
@@ -38,6 +50,7 @@ $(document).ready(function () {
             setTimeout(() => {
                 $(".behind").show();
             }, 500);
+
             comtd = 1;
         };
     });
@@ -47,8 +60,6 @@ $(document).ready(function () {
         $(".titleTextSub").slideUp("slow");
 
     });
-
-
 
 
     $(".titleTextSub").hover(function () {
